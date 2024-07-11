@@ -31,6 +31,7 @@ nav div button{
   border-radius: 11px;
   border: none;
   font-size: 16px;
+  font-weight: bold;
 }
 nav div button:hover{
   background-color: white;
@@ -60,6 +61,20 @@ nav div button:hover{
   margin: 20px;
 }
 #hero h1 span{
+  color: dodgerblue;
+}
+#get-started{
+  padding: 20px;
+  margin-top: 20px;
+  background-color: dodgerblue;
+  font-size: 48px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+#get-started:hover{
+  background-color: white;
+  border: 2px solid dodgerblue;
   color: dodgerblue;
 }
 .hero-container{
@@ -171,7 +186,7 @@ nav div button:hover{
   gap: 10px;
 }
 #about-us h2{
-  font-size: 35px;
+  font-size: 50px;
 }
 #about-us h2 span{
   color: dodgerblue;
@@ -189,11 +204,11 @@ nav div button:hover{
   background-color: white;
   padding: 100px 0;
 }
-#features div{
+#features div h2{
   text-align: center;
   padding-bottom: 10px;
   color: black;
-  font-size: 35px;
+  font-size: 50px;
   margin: 24px;
 }
 
@@ -270,37 +285,38 @@ nav div button:hover{
   padding-top: 60px;
   height: 300px;
 }
-#contact-us div p{
-  text-align: center;
+#contact-us div div{
+  text-align: left;
   color: rgba(255, 255, 255, 0.664);
+}
+.copyright{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.664)
 }
 .container{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  text-align: center;
+  text-align: left;
   gap: 20px;
 }
 .container div h4{
   color: white;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 .quicksumm{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 .quicksumm div{
   display: flex;
   flex-direction: row;
-  gap: 5px;
 }
 .quicksumm div img{
   width: 200px;
-}
-.quicksumm div h3{
-  color: dodgerblue;
+  margin-bottom: 10px;
 }
 .quicksumm div p{
   width: 300px;
