@@ -31,6 +31,7 @@ nav div button{
   border-radius: 11px;
   border: none;
   font-size: 16px;
+  font-weight: bold;
 }
 nav div button:hover{
   background-color: white;
@@ -284,9 +285,13 @@ nav div button:hover{
   padding-top: 60px;
   height: 300px;
 }
-#contact-us div p{
+#contact-us div div{
   text-align: left;
   color: rgba(255, 255, 255, 0.664);
+}
+.copyright{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.664)
 }
 .container{
   display: flex;
